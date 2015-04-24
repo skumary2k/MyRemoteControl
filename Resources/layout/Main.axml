@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <Button
+        android:id="@+id/btnUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UP"
+        android:background="@drawable/up"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="60dp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LEFT"
+            android:padding="3dip"
+            android:top="10dp"
+            android:background="@drawable/left" />
+        <Button
+            android:id="@+id/btnRound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:padding="3dip"
+            android:top="10dp"
+            android:background="@drawable/round" />
+        <Button
+            android:id="@+id/btnRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:text="RIGHT"
+            android:padding="3dip"
+            android:top="10dp"
+            android:background="@drawable/right" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnDown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DOWN"
+        android:padding="3dip"
+        android:background="@drawable/down"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="10dp" />
+</LinearLayout>

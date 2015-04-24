@@ -1,0 +1,13 @@
+﻿<Properties StartupItem="MyRemoteControl.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" PreferredExecutionTarget="Android.ABC" />
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="MainActivity.cs" Line="38" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.MyRemoteControl AndroidDesignerPreferredDevice="Nexus 4" />
+</Properties>
