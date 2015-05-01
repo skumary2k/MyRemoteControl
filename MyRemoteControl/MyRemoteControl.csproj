@@ -16,8 +16,6 @@
     <AssemblyName>MyRemoteControl</AssemblyName>
     <TargetFrameworkVersion>v2.3</TargetFrameworkVersion>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
-    <ProductVersion>8.0.30703</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
     <ReleaseVersion>1.0</ReleaseVersion>
     <SynchReleaseVersion>false</SynchReleaseVersion>
   </PropertyGroup>
@@ -51,6 +49,7 @@
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DevicesActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -70,6 +69,7 @@
     <AndroidResource Include="Resources\drawable-xxhdpi\Remote.png" />
     <AndroidResource Include="Resources\drawable-xxxhdpi\Remote.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\round.png" />
+    <AndroidResource Include="Resources\layout\Devices.axml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>

@@ -45,6 +45,12 @@ namespace MyRemoteControl
 			btnDown.Click += delegate {
 				Connect("Down");
 			};
+
+			Button btnRound = FindViewById<Button> (Resource.Id.btnRound);
+			btnRound.Click += delegate {
+				var intent = new Intent(this, typeof(DevicesActivity));
+				StartActivity(intent);
+			};
 		}
 
 		private void CreateBluetoothConnection (Button button)
